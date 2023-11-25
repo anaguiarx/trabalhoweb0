@@ -1,0 +1,37 @@
+/* Resetando margens e preenchimentos padrão do navegador */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo para o header */
+.meu-header {
+    background-image: url('img/Foto\ 1\ header.jpeg'); /* Substitua pelo caminho da sua imagem */
+    background-size: cover; /* Garante que a imagem cubra todo o header */
+    color: #fff; /* Cor do texto no header, neste caso, branco */
+    text-align: center; /* Alinhamento do texto no centro */
+    padding: 100px; /* Preenchimento interno do header */
+}
+
+/* Estilo para o título principal no header */
+.titulo-header {
+    font-size: 5em; /* Tamanho da fonte do título principal */
+}
+
+.subtitulo-header{
+    font-size: 3em; /* Tamanho da fonte do título principal */
+    margin-bottom: 40px; /* Espaçamento inferior do título principal */
+}
+
+/* Estilo para a navegação no header */
+.menu-header {
+    margin-top: 20px; /* Espaçamento superior para a navegação */
+}
+
+/* Estilo para os links na navegação */
+.link-header {
+    color: #fff; /* Cor do texto dos links, neste caso, branco */
+    text-decoration: none; /* Remover sublinhado dos links */
+    margin: 0 10px; /* Espaçamento horizontal entre os links */
+    font-size: 1.2em; /* Tamanho da fonte dos links */
+}
