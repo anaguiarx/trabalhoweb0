@@ -1,5 +1,10 @@
 /* Resetando margens e preenchimentos padrão do navegador */
-body, h1, h2, p, ul, li {
+
+body{
+    background-color: #FFF0E4;
+}
+
+body, h1, h2, h3, h4, h5, h6, p, ul, li {
     margin: 0;
     padding: 0;
 }
@@ -8,30 +13,35 @@ body, h1, h2, p, ul, li {
 .meu-header {
     background-image: url('img/Foto\ 1\ header.jpeg'); /* Substitua pelo caminho da sua imagem */
     background-size: cover; /* Garante que a imagem cubra todo o header */
-    color: #fff; /* Cor do texto no header, neste caso, branco */
+    color: #E5CBB6; /* Cor do texto no header, neste caso, branco */
     text-align: center; /* Alinhamento do texto no centro */
     padding: 100px; /* Preenchimento interno do header */
 }
 
 /* Estilo para o título principal no header */
 .titulo-header {
-    font-size: 5em; /* Tamanho da fonte do título principal */
+    font-size: 7em; /* Tamanho da fonte do título principal */
+    margin-bottom: -20px; /* Removendo o espaçamento do elemento de baixo */
+    text-shadow: 5px 5px 5px #735944; /* Adiciona uma sombra ao texto para criar um contorno */
 }
 
 .subtitulo-header{
     font-size: 3em; /* Tamanho da fonte do título principal */
     margin-bottom: 40px; /* Espaçamento inferior do título principal */
+    text-shadow: 5px 5px 5px #735944; /* Adiciona uma sombra ao texto para criar um contorno */
 }
 
 /* Estilo para a navegação no header */
 .menu-header {
-    margin-top: 20px; /* Espaçamento superior para a navegação */
+    margin-top: 10px; /* Espaçamento superior para a navegação */
 }
 
 /* Estilo para os links na navegação */
 .link-header {
-    color: #fff; /* Cor do texto dos links, neste caso, branco */
+    background-color: #784C34;
+    color: #E5CBB6; /* Cor do texto dos links, neste caso, branco */
     text-decoration: none; /* Remover sublinhado dos links */
-    margin: 0 10px; /* Espaçamento horizontal entre os links */
-    font-size: 1.2em; /* Tamanho da fonte dos links */
+    margin: 0 15px; /* Espaçamento horizontal entre os links */
+    font-size: 2em; /* Tamanho da fonte dos links */
 }
+
