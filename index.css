@@ -45,3 +45,35 @@ body, h1, h2, h3, h4, h5, h6, p, ul, li {
     font-size: 2em; /* Tamanho da fonte dos links */
 }
 
+.conteudo-section {
+    padding: 100px;
+    text-align: center;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.titulo-section {
+    font-size: 2em; /* Tamanho da fonte  */
+    margin-bottom: 20px; /* Adicione espaçamento abaixo do título da seção */
+}
+
+.texto-sobre{
+    font-size: 1.5em; /* Tamanho da fonte  */
+    color: #784C34;
+}
+
+.sobre-section{
+    color: #784C34;
+}
+
+.subtitulo-cardapio{
+    color: #FFF0E4;
+    text-shadow: 3px 3px 3px #735944; /* Adiciona uma sombra ao texto para criar um contorno */
+}
+
+.divisao {
+    width: 100%;
+    height: 1px;
+    border-top: 3px dashed #735944; /* Adicione uma linha tracejada de cor cinza */
+    margin: 30px 0; /* Adicione espaçamento acima e abaixo da linha */
+}
