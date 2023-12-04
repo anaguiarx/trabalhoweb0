@@ -72,9 +72,7 @@ body, h1, h2, h3, h4, h5, h6, p, ul, li {
 
 .subtitulo-cardapio{
     color: floralwhite;
-    height: 120px;
-    margin-left: 10%;
-    font-size: 60px;
+    font-size: 55px;
     text-shadow: 5px 5px 5px #735944; /* Adiciona uma sombra ao texto para criar um contorno */
 }
 
